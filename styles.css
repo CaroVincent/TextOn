@@ -1,0 +1,52 @@
+body {
+    color: white;
+    background-color: rgb(22, 22, 22);
+}
+
+#champs {
+    display: flex;
+    justify-content: center;
+}
+
+#text, #fond {
+    background-color: rgb(65, 65, 65);
+    width: 20%;
+    min-width: 9em;
+    padding: 1em;
+}
+
+h2{
+    font-size: 2em;
+    padding: 0.2em;
+}
+
+
+.container {
+    display: flex;
+    width: 9em; 
+}
+
+.RGB {
+    width: 3em;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+
+}
+
+.HEX {
+    width: 9em;
+    flex-grow: 1;
+}
+
+#preview {
+    width: 40%;
+    min-width: 18em;
+    padding: calc(2em - 2px);
+    margin: 0 auto;
+    border: 2px solid blue;
+
+    text-align: center;
+    text-transform: uppercase;
+
+}
